@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_container_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/content_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="1dp"
+        android:background="@color/baseWhite"
+        android:layout_marginTop="1dp">
+
+        <RadioButton
+            android:id="@+id/content_rb_expo"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_expo"
+            android:text="@string/bottom_expo" />
+
+        <RadioButton
+            android:id="@+id/content_rb_notice"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_notice"
+            android:text="@string/bottom_notice" />
+
+        <RadioButton
+            android:id="@+id/content_rb_home"
+            style="@style/tab_style"
+            android:textSize="0sp"
+            android:drawableTop="@drawable/tab_home" />
+
+        <RadioButton
+            android:id="@+id/content_rb_business"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_business"
+            android:text="@string/bottom_business" />
+
+        <RadioButton
+            android:id="@+id/content_rb_mine"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_mine"
+            android:text="@string/bottom_mine" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">DynamicHome</string>
+
+    <!-- 底部菜单 -->
+    <string name="bottom_expo">展会</string>
+    <string name="bottom_notice">活动</string>
+    <string name="bottom_home">首页</string>
+    <string name="bottom_business">服务</string>
+    <string name="bottom_mine">我的</string>
+
+</resources>
